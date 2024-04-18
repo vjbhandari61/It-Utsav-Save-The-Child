@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9650a62e47.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Save the child</title>
+</head>
+
+<body>
+
+  <header id="header">
+    <nav id="nav-bar">
+      <div class="logo"><img src="../assets/icons8-save-the-children-96.png">
+        <h1>Save The Children</h1></div>
+
+      <ul>
+        <a class="nav-link" href="index.html">HOME</a>
+        <a class="nav-link" href="where-we-help.html"> WHERE WE HELP</a>
+        <a class="nav-link" href="news.html">NEWS </a>
+        <a class="nav-link" id="signupLink" href="signup.html">SIGN UP</a>
+        <a class="nav-link" id="signinLink" href="signin.html">SIGN IN</a>
+        <a class="nav-link" href="donate.html">DONATE</a>
+      </ul>
+    </nav>
+  </header>
+  <div class="parentContainer">
+    <img src="../assets/child.png" alt="Background">
+     <div class="side"><h1>CHILDREN IN ENDANGERED COUNTRIES.</h1>
+      <h2> Nearly a quarter of the world’s children live in conflict or disaster-stricken countries. </h2> <h2>The cost of this violence to children and their communities will be borne out for generations to come.<br>
+    They are dying from hunger and disease at the fastest pace on record. The situation has never been more desperate.
+We urgently need your support to protect children. Please donate today.</h2>
+    </div>
+      </div>
+
+  
+</section>
+<section id="sec2">
+  <div class="sec2p"><h1>SAVE THE CHILDREN<hr></h1>
+  <p>Children’s lives, safety, well-being, and futures are under attack in an increasingly dangerous and unequal world.</p>
+<p>Children and their families have come under attack in the places they should be safest – their homes, shelters, hospitals and places of worship.</p>
+<p>Since the escalation, thousands of children have been injured and killed.</p>
+<a class="btn btn-primary btn-lg" href="donate.html"><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">Donate Now</span></a>
+</div>
+
+</section>
+
+<section id="sec3">
+<div class="sec3img">
+
+  <img src="../assets/sec3.jpg" alt="Background" width="100%" height="100%">
+  <div class="sect">
+  <h1>HUNGER CRISES DUE TO WAR.</h1>
+  <p> Conflict can cause food shortages and the severe disruption of economic activities, threatening the means of survival of entire populations. Additionally, wars commonly trigger the displacement of huge numbers of people, cutting them off from their food supplies and livelihoods. </p>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="features">
+  <div class="feature">
+    <i class="fa fa-globe fa-3x "></i>
+    <div>
+      <h2>Globaly Available</h2>
+      <p>It's globally available. Anywhere can donate from around the world. </p>
+    </div>
+  </div>
+  <div class="feature">
+    <i class="fa fa-money fa-3x" ></i>
+    <div>
+      <h2>Donation</h2>
+      <p>Even a penny of your donation can help the families and children in the countries that are in danger and conflicts. </p>
+    </div>
+  </div>
+  
+   
+
+</section>
+<footer id="main-footer">
+  <div>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Contact us</a>
+  </div>
+  <p>Copyright 2023</p>
+</footer>
+
+<script>
+  const signedIn = localStorage.getItem('signedIn');
+
+  if (signedIn === 'true') {
+    document.getElementById('signinLink').style.display = 'none';
+    document.getElementById('signupLink').style.display = 'none';
+  }
+</script>
+ </body>
+</html>
